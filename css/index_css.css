@@ -1,0 +1,84 @@
+body{background-color: black;
+    font-family: Manrope;
+}
+  .container{
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .row{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+justify-content: center;
+  margin-top: 100px;
+  }
+  
+  .col{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+    } 
+
+
+.div{
+    height: 350px;
+    width: 600px;
+    border-radius: 10px;
+    background-color:  hsl(217, 19%, 24%);
+    display: block;
+    justify-content: center;
+}
+.yzradi{
+    height: 30px;
+    color:  hsl(150, 100%, 66%);
+    width: 100%;
+    text-align: center;
+}
+
+.content{
+    height: 180px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+}
+.paus{
+    height: 20px;
+    width: 100%;
+    background-image: url("../img/pattern-divider-desktop.svg");
+background-position: center;
+background-repeat: no-repeat;
+}
+
+button{
+    background-color:  hsl(150, 100%, 66%);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 40px 10px 0px 10px;
+    
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 0px 0px 40px aqua;
+}
+
+.content p{
+    font-size: 28px;
+    color: white;
+}
+button .imga{
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40px;
+}
+@media (max-width:375px) {
+    .div{
+        height: 470px;
+    }
+    .paus{
+        margin-top: 120px;
+    }
+}
