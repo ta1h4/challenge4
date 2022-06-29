@@ -33,9 +33,21 @@ const getir=()=>{
         textAlani.select();
         document.execCommand("copy");
         textAlani.style.display = "none";
-        alert("Kopyalandı");
+        alert("ingilizce'si Kopyalandı");
         }
 
+
+        function kopyala2(){
+            var alan = document.getElementById("contentyz2").innerHTML;
+            var textAlani = document.createElement("TEXTAREA");
+            textAlani.value = alan;
+            document.body.appendChild(textAlani);
+            textAlani.select();
+            document.execCommand("copy");
+            textAlani.style.display = "none";
+            alert("Türkçe'si Kopyalandı");
+            }
+    
   
 
     function çevir(aa){
